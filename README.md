@@ -69,6 +69,9 @@ dotnet eb deploy-environment
 <br>
 <br>
 
+## Este aplicativo está hospedado:
+<http://aspnetcore-dev02.eba-bnkayxz2.us-east-1.elasticbeanstalk.com/>
+
 
 ### Referências
 <https://www.treinaweb.com.br/blog/publicando-uma-aplicacao-net-core-3-0-no-aws-elastic-beanstalk/>
