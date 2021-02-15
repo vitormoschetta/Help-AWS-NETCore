@@ -1,25 +1,25 @@
 # AWS Elastic Beanstalk
 ## Publicando uma aplicação .NET Core 3.1 
 
-## Gerar App
+### Gerar App
 ```
 dotnet new mvc
 ```
 
-## Instalar tools AWS
+### Instalar tools AWS
 ```
 dotnet tool install -g Amazon.ElasticBeanstalk.Tools
 ```
 
-## Baixar e instalar AWS CLI
+### Baixar e instalar AWS CLI
 <https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html>
 
 
-## Definir credencias (secret Key) na AWS
+### Definir credencias (secret Key) na AWS
 <https://console.aws.amazon.com/iam/home?region=us-east-2#/security_credentials>
 
 
-## Adicionar credenciais no AWS CLI
+### Adicionar credenciais no AWS CLI
 ```
 aws configure
 ```
@@ -33,7 +33,7 @@ Default output format [None]: json
 ```
 
 
-## Adicionar arquivo de configuração AWS:
+### Adicionar arquivo de configuração AWS:
 Salvar na raíz da aplicação com o nome _aws-beanstalk-tools-defaults.json_ e com o seguinte conteúdo:
 ```
 {
@@ -49,7 +49,7 @@ Salvar na raíz da aplicação com o nome _aws-beanstalk-tools-defaults.json_ e 
 
 
 
-## Adicionar 'Environment' no appsettings.json
+### Adicionar 'Environment' no appsettings.json
 ```
 {
   "Logging": {
@@ -64,7 +64,7 @@ Salvar na raíz da aplicação com o nome _aws-beanstalk-tools-defaults.json_ e 
 }
 ```
 
-## Fazer o deploy / publicar
+### Fazer o deploy / publicar
 ```
 dotnet eb deploy-environment
 ```
