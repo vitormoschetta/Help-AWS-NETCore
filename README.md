@@ -1,4 +1,4 @@
-# Publicando uma aplicação .NET Core 3.0 no AWS Elastic Beanstalk
+# Publicando uma aplicação .NET Core 3.1 no AWS Elastic Beanstalk
 
 ## Gerar App
 ```
