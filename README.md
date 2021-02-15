@@ -42,9 +42,9 @@ Salvar na raíz da aplicação com o nome _aws-beanstalk-tools-defaults.json_ e 
     "configuration": "Release"
 }
 ```
-"us-east-1" foi a região geográfica definida para hospedar o nosso aplicativo.
-"aspnetcore-app" foi o nome do aplicativo definido.
-"aspnetcore-dev" foi o nome do ambiente definido. Você pode definir ambientes de desenvolvimento, produção, ambientes por versão, etc..
+"us-east-1" foi a região geográfica definida para hospedar o nosso aplicativo.  
+"aspnetcore-app" foi o nome do aplicativo definido.  
+"aspnetcore-dev" foi o nome do ambiente definido. Você pode definir ambientes de desenvolvimento, produção, ambientes por versão, etc..  
 
 
 
