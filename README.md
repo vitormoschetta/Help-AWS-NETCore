@@ -11,7 +11,7 @@ dotnet tool install -g Amazon.ElasticBeanstalk.Tools
 ```
 
 ## Baixar e instalar AWS CLI
-<https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html>
+<https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html>
 
 
 ## Definir credencias (secret Key) na AWS
